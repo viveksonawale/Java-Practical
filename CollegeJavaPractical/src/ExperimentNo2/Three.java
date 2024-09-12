@@ -1,15 +1,15 @@
 package ExperimentNo2;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
-public class Three {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Your Name:");
-        String name = sc.nextLine();
-        System.out.println("Enter Your Student ID:");
-        String studentId = sc.nextLine();
-        System.out.println(name);
-        System.out.println(studentId);
+public class Three  {
+    public static void main(String[] args) throws Exception {
+        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
+        BufferedReader stringBuffer = new BufferedReader(inputStreamReader);
+        System.out.println("Enter your name :\t");
+        String name = stringBuffer.readLine();
+        System.out.println("Your Name is:"+name);
     }
 }

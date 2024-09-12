@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         //Creating an Array
         int[] arr = new int[5];
-
         //initializing the Values to Array
         arr[0] = 10;
         arr[1] = 20;
