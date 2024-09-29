@@ -8,6 +8,6 @@ public class One {
         Console console = System.console();
         System.out.println("Enter Your Name:");
         String name = console.readLine();
-        System.out.println("Welcome"+name+"to java world");
+        System.out.println("Welcome "+name+" to java world");
     }
 }

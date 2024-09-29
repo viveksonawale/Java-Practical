@@ -20,7 +20,7 @@ class C implements A, B {
         System.out.println("This is the Interface B");
     }
 
-    public void thisIsCFunction(){
+    public void thisIsCFunction() {
         System.out.println("This is the Class C");
     }
 }
